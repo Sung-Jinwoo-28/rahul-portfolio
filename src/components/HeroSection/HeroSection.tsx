@@ -32,9 +32,9 @@ export const HeroSection = () => {
             transition: { duration: 0.8, ease: "easeOut" },
           }}
         >
-          Scarlett Rose
+          Rahul Modi
           <motion.span
-            className="text-sm text-pink-500 font-semibold block"
+            className="text-sm text-indigo-500 font-semibold block"
             initial={{ opacity: 0, y: 20, filter: "blur(4px)" }}
             animate={{
               opacity: 1,
@@ -43,7 +43,7 @@ export const HeroSection = () => {
               transition: { duration: 0.8, ease: "easeOut" },
             }}
           >
-            She / Her
+            He / Him
           </motion.span>
         </motion.h1>
 
@@ -57,7 +57,7 @@ export const HeroSection = () => {
             transition: { duration: 0.8, ease: "easeOut" },
           }}
         >
-          Experienced Designer & Full-Stack Developer
+          Aspiring Financial Analyst & Tech Enthusiast
         </motion.h2>
 
         <motion.p
@@ -70,11 +70,11 @@ export const HeroSection = () => {
             transition: { duration: 0.8, ease: "easeOut" },
           }}
         >
-          Crafting elegant, user-friendly, and high-performance digital
-          experiences for global brands. Specializing in UI/UX design, frontend
-          & backend development, and creating scalable solutions that captivate
-          audiences. Passionate about blending creativity with technology to
-          bring ideas to life.
+          I’m a motivated student with a strong interest in finance,
+          data analysis, and technology.I enjoy working with numbers,
+          understanding market trends,& backend development, and creating 
+          scalable solutions that captivate audiences. Passionate about
+          blending creativity with technology to bring ideas to life.
         </motion.p>
 
         <motion.div
@@ -87,9 +87,9 @@ export const HeroSection = () => {
             transition: { duration: 0.8, ease: "easeOut" },
           }}
         >
-          <Badge className="text-xs bg-pink-500">Team Lead</Badge>
-          <Badge className="text-xs bg-pink-500">Problem Solving</Badge>
-          <Badge className="text-xs bg-pink-500">Decision Making</Badge>
+          <Badge className="text-xs bg-indigo-500">Team Lead</Badge>
+          <Badge className="text-xs bg-indigo-500">Problem Solving</Badge>
+          <Badge className="text-xs bg-indigo-500">Decision Making</Badge>
         </motion.div>
       </motion.div>
 
@@ -106,7 +106,7 @@ export const HeroSection = () => {
       >
         <div className="w-64 h-64 rounded-full overflow-hidden shadow-lg">
           <img
-            src="https://images.pexels.com/photos/5908778/pexels-photo-5908778.jpeg"
+            src="https://i.ibb.co/wZdwKbmp/9-FE22-A5-A-06-B9-4566-812-E-784-F8-C80-D629-1-105-c.jpg"
             alt="Scarlett Rose"
             className="w-full h-full object-cover"
           />

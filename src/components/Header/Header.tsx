@@ -138,8 +138,8 @@ export default function Header() {
                   >
                     <a
                       onClick={() => handleScrollTo(item.href)}
-                      className="cursor-pointer hover:text-pink-800
-                       dark:hover:text-pink-400"
+                      className="cursor-pointer hover:text-indigo-800
+                       dark:hover:text-indigo-400"
                     >
                       {item.name}
                     </a>
@@ -158,7 +158,7 @@ export default function Header() {
             <motion.button
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               className="p-2 rounded-full text-sm font-semibold
-              hover:bg-pink-400 dark:hover:bg-pink-800 transition-colors
+              hover:bg-indigo-400 dark:hover:bg-indigo-800 transition-colors
                hidden md:block"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}

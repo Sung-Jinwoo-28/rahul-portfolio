@@ -13,11 +13,16 @@ export const AboutSection = () => {
     >
       <h2 className="text-3xl font-bold">About Me</h2>
       <p className="text-muted-foreground text-sm max-w-3xl">
-        I am a seasoned Full-Stack Developer and UI/UX Designer with over 10
-        years of experience delivering high-quality software solutions for
-        global enterprises and startups. My career blends deep technical
-        expertise with leadership skills, enabling me to design, build, and lead
-        innovative digital products from concept to launch.
+        I am an aspiring financial analyst with a strong interest in understanding markets,
+        analyzing financial data, and solving real-world business problems using technology.
+        I enjoy working with numbers, identifying patterns,and transforming complex data 
+        into clear, useful insights. Currently, I am building a strong foundation in finance,
+        accounting, and data analytics while exploring tools and technologies that help improve 
+        decision-making. I am highly motivated, detail-oriented, and always eager to learn new 
+        skills that help me grow both professionally and personally.
+      </p>
+      <p className="text-muted-foreground text-sm max-w-3xl">I believe in continuous learning and enjoy taking on new challenges that push me to 
+        think critically and analytically.
       </p>
       <Separator />
     </motion.div>

@@ -41,11 +41,11 @@ export default function ProfessionalProfile() {
             </CardHeader>
             <CardContent className="space-y-4">
               {[
-                { name: "React.js / Next.js", level: 95 },
-                { name: "Node.js / Express", level: 90 },
-                { name: "TypeScript & JavaScript", level: 92 },
-                { name: "Database (MongoDB / PostgreSQL)", level: 88 },
-                { name: "Cloud (AWS / Azure)", level: 85 },
+                { name: "Excel", level: 90 },
+                { name: "Python", level: 85 },
+                { name: "Data Analysis", level: 80},
+                { name: "SQL/BigQuery", level: 50 },
+                { name: "R", level: 20 },
               ].map((skill, i) => (
                 <motion.div
                   key={i}
@@ -82,7 +82,7 @@ export default function ProfessionalProfile() {
             <CardContent className="flex flex-wrap gap-2">
               <AnimatePresence>
                 {[
-                  "Leadership",
+                  "Time Management",
                   "Problem Solving",
                   "Agile Methodologies",
                   "Mentorship",
@@ -96,7 +96,7 @@ export default function ProfessionalProfile() {
                     transition={{ type: "spring", stiffness: 200, damping: 10 }}
                     viewport={{ once: true }}
                   >
-                    <Badge className="bg-pink-500">{skill}</Badge>
+                    <Badge className="bg-indigo-500">{skill}</Badge>
                   </motion.div>
                 ))}
               </AnimatePresence>

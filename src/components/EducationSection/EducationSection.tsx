@@ -33,9 +33,9 @@ export const EducationSection = () => {
         >
           <Card>
             <CardHeader>
-              <CardTitle>M.Sc. in Computer Science</CardTitle>
+              <CardTitle>BBA in Finance & Marketing Analytics</CardTitle>
               <p className="text-sm text-muted-foreground">
-                University of Chennai — 2016 – 2018
+                Christ University, Bangalore — 2025 – Present
               </p>
             </CardHeader>
             <CardContent className="text-xs text-muted-foreground space-y-2">
@@ -45,29 +45,30 @@ export const EducationSection = () => {
                 <strong> Artificial Intelligence Applications</strong>.
               </p>
               <ul className="list-disc list-inside space-y-1">
-                <li>Thesis on Machine Learning for Predictive Analytics</li>
-                <li>Led a research project on Cloud-Based ERP solutions</li>
-                <li>Published 2 papers in IEEE conferences</li>
+                <li>Coursework in Financial Management, Marketing Analytics, and Business Statistics</li>
+                <li>Hands-on experience using <strong>Python</strong> for data analysis and automation</li>
+                <li>Developing skills in tools like <strong>Excel</strong>, and basic data modelling</li>
+                <li>Experience with real-world business case studies and financial modelling concepts</li>
               </ul>
             </CardContent>
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle>B.Sc. in Information Technology</CardTitle>
+              <CardTitle>Higher Secondary Education (PCM)</CardTitle>
               <p className="text-sm text-muted-foreground">
-                Anna University — 2013 – 2016
+                Rajkumar College — 2023 – 2025
               </p>
             </CardHeader>
             <CardContent className="text-xs text-muted-foreground space-y-2">
               <p>
-                Gained strong foundation in <strong>Programming</strong>,
-                <strong> Networking</strong>, and
-                <strong> Database Management</strong>.
+                Completed higher secondary education with a focus on Physics, 
+                Chemistry, and Mathematics (PCM), developing <strong>strong logical thinking</strong>, 
+                <strong> problem-solving abilities</strong>, and a structured approach to analytical challenges.
               </p>
               <ul className="list-disc list-inside space-y-1">
-                <li>Top 5% in Software Engineering coursework</li>
-                <li>Developed a campus-wide library management system</li>
-                <li>Organized annual tech fest for 3 consecutive years</li>
+                <li>Strong foundation in Mathematics and analytical thinking</li>
+                <li>Developed structured problem-solving skills through science-based learning</li>
+                <li>Actively participated in academic and technical activities</li>
               </ul>
             </CardContent>
           </Card>
