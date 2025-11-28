@@ -55,8 +55,8 @@ export const BorderBeam = ({
   size = 50,
   delay = 0,
   duration = 6,
-  colorFrom = "#d48affff",
-  colorTo = "#ff40d9ff",
+  colorFrom="#818cf8",
+  colorTo="#4f46e5",
   transition,
   style,
   reverse = false,
@@ -104,3 +104,9 @@ export const BorderBeam = ({
     </div>
   );
 };
+
+// Usage example
+<BorderBeam
+  colorFrom="#818cf8" // indigo-400
+  colorTo="#4f46e5" // indigo-600
+/>

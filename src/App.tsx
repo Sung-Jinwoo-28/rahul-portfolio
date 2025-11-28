@@ -8,6 +8,7 @@ import { AboutSection } from "./components/AboutSection/AboutSection";
 import { ProjectsSection } from "./components/ProjectsSection/ProjectsSection";
 import { EducationSection } from "./components/EducationSection/EducationSection";
 import { CareerTimeline } from "./components/CareerSection/CareerTimeline";
+import ContactSection from "./components/ContactSection/ContactSection";
 import ReactLenis from "lenis/react";
 import Dock from "./components/lightswind/dock";
 import {
@@ -108,6 +109,9 @@ function App() {
             </div>
             <div id="projects">
               <ProjectsSection />
+            </div>
+            <div id="contact">
+              <ContactSection />
             </div>
           </div>
         </div>
