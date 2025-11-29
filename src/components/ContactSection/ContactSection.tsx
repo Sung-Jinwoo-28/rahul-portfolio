@@ -209,9 +209,9 @@ export default function ContactSection() {
   );
 
   const socialLinks = [
-    { name: "Email", icon: <Mail className="w-5 h-5" />, href: "mailto:your.email@example.com" },
-    { name: "LinkedIn", icon: <Linkedin className="w-5 h-5" />, href: "https://linkedin.com/in/yourprofile" },
-    { name: "GitHub", icon: <Github className="w-5 h-5" />, href: "https://github.com/yourusername" },
+    { name: "Email", icon: <Mail className="w-5 h-5" />, href: "mailto:Rmodi182@gmail.com" },
+    { name: "LinkedIn", icon: <Linkedin className="w-5 h-5" />, href: "https://linkedin.com/in/yrahul-modi-886738368" },
+    { name: "GitHub", icon: <Github className="w-5 h-5" />, href: "https://github.com/Sung-Jinwoo-28" },
     { name: "Twitter", icon: <Twitter className="w-5 h-5" />, href: "https://twitter.com/yourhandle" },
   ];
 
